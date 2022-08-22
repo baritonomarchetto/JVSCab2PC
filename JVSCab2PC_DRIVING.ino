@@ -110,7 +110,7 @@ void setup (){
   //start SPI
   SPI.begin ();
   //start joystick
-  //Joystick.begin();// Initialize Joystick
+  Joystick.begin();// Initialize Joystick
   Joystick.setXAxisRange(0, 1023);//steer
   Joystick.setRyAxisRange(0, 1023);//accel
   Joystick.setRxAxisRange(0, 1023);//brake
